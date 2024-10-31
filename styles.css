@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    padding: 2rem 5rem;
+    padding: 2rem 0;
     grid-column-gap: 2rem;
 }
 
@@ -23,4 +23,12 @@ body {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-size: x-large;
+}
+
+.container, .bio {
+    padding-top: 2rem;
+}
+
+.bio {
+    font-size: 1.45rem;
 }
