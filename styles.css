@@ -1,0 +1,26 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding: 2rem 5rem;
+    grid-column-gap: 2rem;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: 144, 238, 144; 
+    --bs-bg-opacity: 0.8;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: x-large;
+}
